@@ -1,52 +1,86 @@
-Overview
+📌 Math Expression Evaluator
 
-This program takes a mathematical expression as a string, constructs a tree representation of the expression, and evaluates the result.
+🚀 Overview
 
-Supported Operations
+This program processes a mathematical expression as a string, builds a tree representation of the expression, and evaluates the result efficiently.
 
-The program supports the following operators:
+✨ Supported Operations
 
-Addition (+)
+The program supports the following mathematical operators:
 
-Subtraction (-)
+Operator
 
-Multiplication (*)
+Description
 
-Division (/)
++
 
-Exponentiation (^)
+Addition
 
-Supported Functions
+-
 
-The program also supports common mathematical functions:
+Subtraction
 
-sin(x) - Sine function
+*
 
-cos(x) - Cosine function
+Multiplication
 
-tan(x) - Tangent function
+/
 
-cot(x) - Cotangent function
+Division
 
-log(x) - Logarithm (base 10)
+^
 
-ln(x) - Natural logarithm (base e)
+Exponentiation
 
-How It Works
+🎯 Supported Functions
 
-The program receives a mathematical expression in string format.
+Additionally, the program supports several mathematical functions:
 
-It constructs a tree representation (Abstract Syntax Tree) of the expression.
+Function
+
+Description
+
+sin(x)
+
+Sine function
+
+cos(x)
+
+Cosine function
+
+tan(x)
+
+Tangent function
+
+cot(x)
+
+Cotangent function
+
+log(x)
+
+Logarithm (base 10)
+
+ln(x)
+
+Natural logarithm (base e)
+
+🛠️ How It Works
+
+The program takes a mathematical expression as input.
+
+It constructs an Abstract Syntax Tree (AST) to represent the expression.
 
 The tree is evaluated recursively to compute the final result.
 
-Usage
+▶️ Usage
 
 Compile and run the program, then input a mathematical expression to evaluate it.
 
 system("cls");
 cout << "This program takes a string and calculates it." << endl;
 
-License
+📜 License
 
 This project is open-source. Feel free to use and modify it as needed.
+
+🌟 Star this repo if you find it useful! 🌟

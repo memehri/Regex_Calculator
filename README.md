@@ -8,15 +8,15 @@ This program processes a mathematical expression as a string, builds a tree repr
 
 The program supports the following mathematical operators:
 
-+ Addition
+* Addition
 
-- Subtraction
+* Subtraction
 
 * Multiplication
 
-/ Division
+* Division
 
-^ Exponentiation
+* Exponentiation
 
 🎯 Supported Functions
 

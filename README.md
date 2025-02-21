@@ -8,61 +8,31 @@ This program processes a mathematical expression as a string, builds a tree repr
 
 The program supports the following mathematical operators:
 
-Operator
++ Addition
 
-Description
+- Subtraction
 
-+
+* Multiplication
 
-Addition
+/ Division
 
--
-
-Subtraction
-
-*
-
-Multiplication
-
-/
-
-Division
-
-^
-
-Exponentiation
+^ Exponentiation
 
 🎯 Supported Functions
 
 Additionally, the program supports several mathematical functions:
 
-Function
+sin(x): Sine function
 
-Description
+cos(x): Cosine function
 
-sin(x)
+tan(x): Tangent function
 
-Sine function
+cot(x): Cotangent function
 
-cos(x)
+log(x): Logarithm (base 10)
 
-Cosine function
-
-tan(x)
-
-Tangent function
-
-cot(x)
-
-Cotangent function
-
-log(x)
-
-Logarithm (base 10)
-
-ln(x)
-
-Natural logarithm (base e)
+ln(x): Natural logarithm (base e)
 
 🛠️ How It Works
 
@@ -71,13 +41,6 @@ The program takes a mathematical expression as input.
 It constructs an Abstract Syntax Tree (AST) to represent the expression.
 
 The tree is evaluated recursively to compute the final result.
-
-▶️ Usage
-
-Compile and run the program, then input a mathematical expression to evaluate it.
-
-system("cls");
-cout << "This program takes a string and calculates it." << endl;
 
 📜 License
 
